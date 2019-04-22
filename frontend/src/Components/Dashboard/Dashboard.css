@@ -1,0 +1,223 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+.font{
+  color:orange !important;
+  font-size: 30px !important;
+  margin: 20px !important
+ }
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.backdropimage{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  left: 0%;
+  overflow-y: visible;
+
+}
+
+
+.backdrop2{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.85;
+  overflow-y: scroll;
+
+}
+
+.topoption{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 25%;
+  left: 72%;
+  margin-top: 3%;
+}
+
+.xunbao{
+  width: 40%;
+}
+.x{
+  width:20%;
+  margin-right: -5%;
+}
+
+.umbao{
+  width: 30%;
+}
+
+.slogan{
+  margin-left: 15%;
+  width: 25%;
+}
+
+.play{
+  margin-top:4%;
+  width: 6%;
+  margin-bottom: -5%;
+
+}
+.my-facebook-button-class{
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border:0px;
+  color: transparent;
+  background-image: url("../assets2/Group 6.png");
+  background-size: cover;
+
+}
+
+.bottom1{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.bottom2{
+  width: 40%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+.uppertop{
+  width: 100%;
+  height: auto;
+  display: flex;
+
+}
+
+
+.svg1{
+  width: 45px;
+  
+}
+
+
+@media only screen and (max-width: 1050px){
+
+.topoption{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 40%;
+  left: 60%;
+  align-items: center;
+}
+.xunbao{
+  width: 55%;
+}
+.slogan{
+  margin-left: 15%;
+  width: 30%;
+}
+
+.svg1{
+  width: 30px;
+}
+
+.my-facebook-button-class{
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  border:0px;
+  color: transparent;
+  background-image: url("../assets2/Group 6.png");
+}
+
+
+
+ 
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+  ::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+
+.topoption{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  left: 0%;
+  margin-bottom: 10%;
+  align-items: center;
+}
+.xunbao{
+  width: 95%;
+}
+.svg1{
+  width: 30px;
+}
+
+.svg2{
+  width: 25px;
+}
+
+
+.x{
+   width: 50%;
+}
+.umbao{
+  width: 60%;
+}
+.slogan{
+  margin-left: 0%;
+  width: 60%;
+}
+
+.play{
+  margin-top:2%;
+  width: 20%;
+  margin-bottom: 0%;
+}
+.bottom1{
+ width: 100%; 
+ display:flex;
+ flex-direction: row; 
+
+}
+.bottom2{
+  display: none;
+}
+
+.my-facebook-button-class{
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border:0px;
+  color: transparent;
+  background-image: url("../assets2/Group 6.png");
+  
+}
+
+
+ 
+}

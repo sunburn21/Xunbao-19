@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Iceberg|Josefin+Sans');
+
+.backdropimage{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  left: 0%;
+  overflow-y: scroll;
+
+}
+
+
+.backdrop2{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.8;
+  overflow-y: scroll;
+
+}
+
+.topoption{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 25%;
+  left: 72%;
+  margin-top: 3%;
+  align-items: center;
+}
+
+.x{
+  width:20%;
+  margin-right: -5%;
+}
+
+.umbao{
+  width: 30%;
+}
+.correct{
+  position: relative;
+  margin-bottom: 100px;
+  z-index: 10000;
+  top: 0%;
+  left: 0%;
+  opacity: 0.9;
+  transition: transform .5s;
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+
+}
+.incorrect
+{ position: relative;
+  z-index: 10000;
+    margin-bottom: 100px;
+  top: 0%;
+  left: 0%;
+  margin-top: 0px;
+  background-color: black;
+  opacity: 0.9;
+  animation: shake 0.5s;
+  animation-iteration-count: finite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+ 
+
+
+.svg1{
+  
+}
+@media only screen and (max-width: 1050px){
+
+.topoption{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 40%;
+  left: 60%;
+  align-items: center;
+}
+.slogan{
+  margin-left: 15%;
+  width: 30%;
+}
+
+.svg1{
+  width: 40px;
+}
+
+.correctdiv{
+  width: 100%;
+}
+
+ 
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+.topoption{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  left: 0%;
+  margin-bottom: 10%;
+  align-items: center;
+}
+.svg1{
+  width: 50px;
+}
+
+.correct{
+  position: relative;
+  width: 100px;
+  margin-bottom: 250px;
+  z-index: 10000;
+  top: 0%;
+  left: 0%;
+  opacity: 0.9;
+  transition: transform .5s;
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+
+}
+.incorrect
+{ position: relative;
+  z-index: 10000;
+  width: 150px;
+  margin-bottom: 250px;
+  top: 0%;
+  left: 0%;
+  margin-top: 0px;
+  background-color: black;
+  opacity: 0.9;
+  animation: shake 0.5s;
+  animation-iteration-count: finite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
+}
