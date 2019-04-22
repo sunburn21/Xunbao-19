@@ -1,6 +1,6 @@
 # Xunbao-19
 
-Official repository of Xunbao, one of the pre-fest events organized at YMCAUST Faridabad before the annual fest 'Elements Culmyca'.The website include commits from [Sunny singh](https://github.com/sunburn21) and [Ravinder Kumar](https://github.com/thewebsitelevel)
+Official repository of Xunbao, one of the pre-fest events organized at YMCAUST Faridabad before the annual fest 'Elements Culmyca'.More than 200 participants took part in this event.
 
 ### Installation
 
